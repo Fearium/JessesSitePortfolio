@@ -3,17 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express on Azure' });
-});
-
-/* GET About Me page. */
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
-});
-
-/* GET Contact page. */
-router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact Me' });
+  res.render('index', { title: 'Jesse Baril: Portfolio' });
 });
 
 module.exports = router;

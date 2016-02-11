@@ -1,9 +1,105 @@
 <% include partials/header.ejs %>  
-    <!--Main Section-->
-    <main class="container">
-        <h1><%= title %></h1>
-        <p>Welcome to
-            <%= title %>
-        </p>
-    </main>
-<% include partials/footer.ejs %>  
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Jesse Baril</h1>
+                <hr>
+                <p>Designer. &nbsp; Developer. &nbsp; Creator.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Biography</h2>
+                    <hr class="light">
+                    <p class="text-faded">I am a bold 21 year old who is finally settling into his dream carreer path! Starting at the age of 12 I have sold dvds, flung pizzas, sold electronics and laboured and operated heavy equipment in the construction industry. After all that, I finally realized that my true calling has been with the technology industry all along. That is why I have come full circle and gone back to pursue an education as a computer programmer at Georgian College.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services & Skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-globe wow bounceIn text-primary"></i>
+                        <h3>Website Design</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-wrench wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Computer Repair</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-sitemap wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Database Management</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-terminal wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Software Analyst</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                    <a href="http://provix.net/index.asp" class="portfolio-box">
+                        <img src='/images/screenshot.png' class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Provix Inc. Company Website
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact Me</h2>
+                    <hr class="primary">
+                    <p>In need of my services? Give me a call or send me an email!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>705-309-4134</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com">Jesse.Baril@MyGeorgian.ca</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<% include partials/footer.ejs %> 
